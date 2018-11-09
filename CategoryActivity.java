@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet;
+package Dir.dev.mywallet;
 
 import android.content.Intent;
 import android.support.design.widget.TabLayout;
@@ -17,11 +17,11 @@ import com.google.android.gms.ads.MobileAds;
 
 import java.util.Calendar;
 
-import Diretory.dev.mywallet.Database.DatabaseHandler;
-import Diretory.dev.mywallet.fragment.ExpenseCategoryFragment;
-import Diretory.dev.mywallet.fragment.IncomeCategoryFragment;
+import Dir.dev.mywallet.Database.DatabaseHandler;
+import Dir.dev.mywallet.fragment.ExpenseCategoryFragment;
+import Dir.dev.mywallet.fragment.IncomeCategoryFragment;
 
-import static Diretory.dev.mywallet.Internet.isOnline;
+import static Dir.dev.mywallet.Internet.isOnline;
 
 public class CategoryActivity extends AppCompatActivity implements TabLayout.OnTabSelectedListener{
     ViewPager vp;
@@ -76,7 +76,7 @@ public class CategoryActivity extends AppCompatActivity implements TabLayout.OnT
 
     }
     private void addPages(){
-        henry.dev.mywallet.fragment.PagerAdapter pagerAdapter = new henry.dev.mywallet.fragment.PagerAdapter(this.getSupportFragmentManager());
+        Dir.dev.mywallet.fragment.PagerAdapter pagerAdapter = new Dir.dev.mywallet.fragment.PagerAdapter(this.getSupportFragmentManager());
         pagerAdapter.addFragment(new IncomeCategoryFragment());
         pagerAdapter.addFragment(new ExpenseCategoryFragment());
         vp.setAdapter(pagerAdapter);

@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet.Adapter;
+package Dir.dev.mywallet.Adapter;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -18,8 +18,8 @@ import java.util.ArrayList;
 
 import javax.xml.transform.dom.DOMLocator;
 
-import Diretory.dev.mywallet.Model.History;
-import Diretory.dev.mywallet.R;
+import Dir.dev.mywallet.Model.History;
+import Dir.dev.mywallet.R;
 
 
 

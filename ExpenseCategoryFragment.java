@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet.fragment;
+package Dir.dev.mywallet.fragment;
 
 import android.content.DialogInterface;
 import android.graphics.Color;
@@ -27,10 +27,10 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-import Diretory.dev.mywallet.Adapter.CategoryAdapter;
-import Diretory.dev.mywallet.Database.DatabaseHandler;
-import Diretory.dev.mywallet.Model.Category;
-import Diretory.dev.mywallet.R;
+import Dir.dev.mywallet.Adapter.CategoryAdapter;
+import Dir.dev.mywallet.Database.DatabaseHandler;
+import Dir.dev.mywallet.Model.Category;
+import Dir.dev.mywallet.R;
 
 import static android.content.Context.LAYOUT_INFLATER_SERVICE;
 

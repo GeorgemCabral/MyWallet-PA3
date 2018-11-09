@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet;
+package Dir.dev.mywallet;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -29,11 +29,11 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
-import Diretory.dev.mywallet.Database.DatabaseHandler;
-import Diretory.dev.mywallet.Model.User;
-import Diretory.dev.mywallet.Validation.InputValidation;
+import Dir.dev.mywallet.Database.DatabaseHandler;
+import Dir.dev.mywallet.Model.User;
+import Dir.dev.mywallet.Validation.InputValidation;
 
-import static henry.dev.mywallet.Internet.isOnline;
+import static Dir.dev.mywallet.Internet.isOnline;
 
 public class SettingActivity extends AppCompatActivity {
     CardView btnEditProfile, btnInfo, btnCategory, btnDatabase;

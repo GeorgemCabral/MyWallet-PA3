@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet.Validation;
+package Dir.dev.mywallet.Validation;
 
 import android.app.Activity;
 import android.content.Context;

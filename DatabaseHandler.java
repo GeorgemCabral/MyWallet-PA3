@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet.Database;
+package Dir.dev.mywallet.Database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -14,10 +14,10 @@ import java.security.acl.LastOwnerException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 
-import Diretory.dev.mywallet.Model.Budget;
-import Diretory.dev.mywallet.Model.Category;
-import Diretory.dev.mywallet.Model.History;
-import Diretory.dev.mywallet.Model.User;
+import Dir.dev.mywallet.Model.Budget;
+import Dir.dev.mywallet.Model.Category;
+import Dir.dev.mywallet.Model.History;
+import Dir.dev.mywallet.Model.User;
 
 
 

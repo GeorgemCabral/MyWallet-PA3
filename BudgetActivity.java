@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet;
+package Dir.dev.mywallet;
 
 import android.app.Activity;
 import android.app.DatePickerDialog;
@@ -47,13 +47,13 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 
-import Diretory.dev.mywallet.Adapter.BudgetAdapter;
-import Diretory.dev.mywallet.Adapter.ListAdapterEachMonth;
-import Diretory.dev.mywallet.Database.DatabaseHandler;
-import Diretory.dev.mywallet.Model.Budget;
-import Diretory.dev.mywallet.Model.History;
+import Dir.dev.mywallet.Adapter.BudgetAdapter;
+import Dir.dev.mywallet.Adapter.ListAdapterEachMonth;
+import Dir.dev.mywallet.Database.DatabaseHandler;
+import Dir.dev.mywallet.Model.Budget;
+import Dir.dev.mywallet.Model.History;
 
-import static Diretory.dev.mywallet.Internet.isOnline;
+import static Dir.dev.mywallet.Internet.isOnline;
 
 public class BudgetActivity extends AppCompatActivity {
     private ImageView btn_add_budget;

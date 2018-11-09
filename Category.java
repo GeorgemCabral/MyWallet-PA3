@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet.Model;
+package Dir.dev.mywallet.Model;
 
 
 

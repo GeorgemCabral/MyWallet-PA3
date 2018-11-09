@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet.Adapter;
+package Dir.dev.mywallet.Adapter;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -16,9 +16,9 @@ import android.widget.TextView;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 
-import Diretory.dev.mywallet.Model.Category;
-import Diretory.dev.mywallet.Model.History;
-import Diretory.dev.mywallet.R;
+import Dir.dev.mywallet.Model.Category;
+import Dir.dev.mywallet.Model.History;
+import Dir.dev.mywallet.R;
 
 
 
