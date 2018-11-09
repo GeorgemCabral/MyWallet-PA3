@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet;
+package Dir.dev.mywallet;
 
 
 import android.content.Context;

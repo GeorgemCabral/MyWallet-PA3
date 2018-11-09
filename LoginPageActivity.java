@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet;
+package Dir.dev.mywallet;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -26,14 +26,14 @@ import android.widget.Toast;
 
 import java.util.Map;
 
-import Diretory.dev.mywallet.Database.DatabaseHandler;
-import Diretory.dev.mywallet.Model.User;
-import Diretory.dev.mywallet.Validation.InputValidation;
+import Dir.dev.mywallet.Database.DatabaseHandler;
+import Dir.dev.mywallet.Model.User;
+import Dir.dev.mywallet.Validation.InputValidation;
 
-import static Diretory.dev.mywallet.BackUpAndRestore.importDB;
-import static Diretory.dev.mywallet.BackUpAndRestore.makeFolder;
-import static Diretory.dev.mywallet.BackUpAndRestore.verifyStoragePermissions;
-import static Diretory.dev.mywallet.Internet.isOnline;
+import static Dir.dev.mywallet.BackUpAndRestore.importDB;
+import static Dir.dev.mywallet.BackUpAndRestore.makeFolder;
+import static Dir.dev.mywallet.BackUpAndRestore.verifyStoragePermissions;
+import static Dir.dev.mywallet.Internet.isOnline;
 
 public class LoginPageActivity extends AppCompatActivity {
     EditText username,password;
@@ -57,7 +57,7 @@ public class LoginPageActivity extends AppCompatActivity {
         db = new DatabaseHandler(LoginPageActivity.this);
         user = db.getUser();
 
-        username = (EditText) findViewById(R.id.username);
+        username = (EditText) findViewById(R.id.username); //ga jadi pake
         password = (EditText) findViewById(R.id.password);
 
         signInBtn = (Button) findViewById(R.id.sign_in_button);

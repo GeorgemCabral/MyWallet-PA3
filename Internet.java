@@ -1,9 +1,8 @@
-package Diretory.dev.mywallet;
+package Dir.dev.mywallet;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-
 
 
 public class Internet {

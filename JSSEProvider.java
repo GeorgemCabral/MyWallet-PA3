@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet;
+package Dir.dev.mywallet;
 
 import java.security.Provider;
 import java.security.AccessController;

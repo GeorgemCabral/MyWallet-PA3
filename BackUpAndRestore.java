@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet;
+package Dir.dev.mywallet;
 
 import android.Manifest;
 import android.app.Activity;
@@ -15,6 +15,7 @@ import java.io.FileOutputStream;
 import java.nio.channels.FileChannel;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+
 
 
 public class BackUpAndRestore {

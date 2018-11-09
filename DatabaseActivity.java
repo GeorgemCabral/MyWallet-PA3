@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet;
+package Dir.dev.mywallet;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -31,11 +31,11 @@ import com.google.android.gms.ads.MobileAds;
 import java.io.File;
 import java.util.Calendar;
 
-import static Diretory.dev.mywallet.BackUpAndRestore.exportDB;
-import static Diretory.dev.mywallet.BackUpAndRestore.importDB;
-import static Diretory.dev.mywallet.BackUpAndRestore.makeFolder;
-import static Diretory.dev.mywallet.BackUpAndRestore.verifyStoragePermissions;
-import static Diretory.dev.mywallet.Internet.isOnline;
+import static Dir.dev.mywallet.BackUpAndRestore.exportDB;
+import static Dir.dev.mywallet.BackUpAndRestore.importDB;
+import static Dir.dev.mywallet.BackUpAndRestore.makeFolder;
+import static Dir.dev.mywallet.BackUpAndRestore.verifyStoragePermissions;
+import static Dir.dev.mywallet.Internet.isOnline;
 
 public class DatabaseActivity extends AppCompatActivity {
 

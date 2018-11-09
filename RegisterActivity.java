@@ -1,4 +1,4 @@
-package Diretory.dev.mywallet;
+package Dir.dev.mywallet;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -13,12 +13,12 @@ import android.widget.EditText;
 
 import java.io.File;
 
-import Diretory.dev.mywallet.Database.DatabaseHandler;
-import Diretory.dev.mywallet.Model.User;
-import Diretory.dev.mywallet.Validation.InputValidation;
+import Dir.dev.mywallet.Database.DatabaseHandler;
+import Dir.dev.mywallet.Model.User;
+import Dir.dev.mywallet.Validation.InputValidation;
 
-import static Diretory.dev.mywallet.BackUpAndRestore.makeFolder;
-import static Diretory.dev.mywallet.BackUpAndRestore.verifyStoragePermissions;
+import static Dir.dev.mywallet.BackUpAndRestore.makeFolder;
+import static Dir.dev.mywallet.BackUpAndRestore.verifyStoragePermissions;
 
 public class RegisterActivity extends AppCompatActivity {
 
