@@ -75,7 +75,7 @@ public class BudgetActivity extends AppCompatActivity {
     ArrayAdapter<String> monthAdapter;
     ArrayAdapter<String> yearAdapter;
 
-    //BOTTOM TOTAL LAYOUT
+
     TextView rest_budget, status_budget, tv_percentage_total, total_budget_used, total_budget_amount;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
